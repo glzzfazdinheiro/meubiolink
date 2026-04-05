@@ -239,7 +239,7 @@ if (discordBtn) {
 
 modalConfirm.addEventListener("click", () => {
     modal.style.display = "none";
-    window.open("https://discord.com/users/inimigodapoliciacivil", "_blank");
+    window.open("https://discord.com/users/g7h3", "_blank");
 });
 modalCancel.addEventListener("click", () => {
     modal.style.display = "none";
