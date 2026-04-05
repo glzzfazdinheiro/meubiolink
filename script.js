@@ -171,7 +171,7 @@ const toast = document.getElementById("copyToast");
 const modal = document.getElementById("discordModal");
 const modalConfirm = document.getElementById("modalConfirm");
 const modalCancel = document.getElementById("modalCancel");
-const textoParaCopiar = "inimigodapoliciacivil";
+const textoParaCopiar = "g7h3";
 
 function showToastNearIcon(iconElement, message = "✅ Username copiado!") {
     const rect = iconElement.getBoundingClientRect();

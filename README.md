@@ -12,7 +12,7 @@ Um hub de links pessoal com player de música integrado, animação de partícul
   - Indicador da faixa atual
   - Toca automaticamente a próxima música da playlist
 - 📋 **Botão do Discord** que:
-  - Copia o username `inimigodapoliciacivil`
+  - Copia o username `g7h3`
   - Mostra um toast flutuante próximo ao ícone
   - Abre um modal perguntando se quer abrir o Discord
   - Fallback para navegadores sem suporte à Clipboard API
