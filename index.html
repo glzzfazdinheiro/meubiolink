@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Bio Link | glzz</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="particles-canvas"></canvas>
+    <div class="bg-overlay"></div>
+
+    <div id="enter-screen" onclick="startExperience()">
+        <div class="enter-text">CLICK TO ENTER</div>
+    </div>
+
+    <audio id="main-audio" loop preload="auto"></audio>
+
+    <div class="profile-card" id="main-card">
+        <img src="avatar.gif" alt="Avatar" class="avatar" id="avatar-img" loading="lazy">
+        <h1 class="name-neon">glzz</h1>
+        <span class="username-tag">Acredite em si mesmo.</span>
+
+        <div class="social-icons">
+            <a href="javascript:void(0)" id="discord-copy-btn" aria-label="Copiar username do Discord"><i class="fab fa-discord"></i></a>
+            <a href="https://www.instagram.com/guilhermexz_n" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@guilhermexz_n" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+        </div>
+
+        <div class="links-list">
+            <a href="https://www.github.com/glzzfazdinheiro" target="_blank" rel="noopener noreferrer" class="link-item" aria-label="GitHub"><i class="fab fa-github"></i> Github</a>
+        </div>
+    </div>
+
+    <div id="copyToast" class="copy-toast">✅ Copiado!</div>
+
+    <div id="discordModal" class="modal">
+        <div class="modal-content">
+            <p>📋 Username <strong>inimigodapoliciacivil</strong> copiado!<br>Deseja abrir o Discord agora?</p>
+            <div class="modal-buttons">
+                <button class="modal-btn" id="modalCancel">Cancelar</button>
+                <button class="modal-btn confirm" id="modalConfirm">Abrir Discord</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="music-widget" id="music-widget">
+        <div class="music-ctrl-btn" id="play-pause-btn" aria-label="Play/Pause">
+            <i class="fas fa-play" id="play-icon"></i>
+        </div>
+        <div class="music-ctrl-btn" id="mute-btn" aria-label="Mutar/Desmutar">
+            <i class="fas fa-volume-up" id="mute-icon"></i>
+        </div>
+        <div class="current-track" id="current-track-label">🎵 Carregando...</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
